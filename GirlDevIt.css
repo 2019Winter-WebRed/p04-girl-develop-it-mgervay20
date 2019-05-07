@@ -1,0 +1,62 @@
+/*
+* Moira Gervay
+* Girl Develop It Website Design
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body attributes here */
+
+body {
+ background-color: #ffe1df
+} 
+
+/*Header with logo*/
+header {
+ text-align: center;
+ background-color: #f1636a
+}
+
+/*Main section with font change*/
+main {
+ font-family: Arial, Helvetica, sans-serif;
+ background-color: #ffe1df
+}
+
+/*Footer with background*/
+footer {
+ background-color: #ffe1df
+}
+
+/*Images of girls floated with sizing change*/
+.floatimg {
+    float: right;
+    width: 380px; 
+    height: 200px;
+}
+
+/*Logo clearned from floating*/
+#GDILogo {
+    clear:right;
+}
+
+/*headers with cursive font*/
+h1 {
+    text-decoration:underline;
+    font-family: cursive;
+}
+
+h3 {
+    text-decoration:underline;
+    font-family: cursive;
+}
+
+/*Changes to link format when mouse is hovered over*/
+a:hover, a:focus {
+    color: hotpink;
+    font-weight: bold;
+}
